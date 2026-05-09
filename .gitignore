@@ -1,0 +1,20 @@
+# Resin 伺服器本體（很大，不需要上傳）
+bin/
+lib/
+log/
+resin-data/
+watchdog-data/
+webapp-jars/
+win32/
+win64/
+endorsed/
+compat/
+contrib/
+
+# 編譯產出
+webapps/ROOT/WEB-INF/work/
+**/*.class
+
+# 系統檔
+.DS_Store
+Thumbs.db
